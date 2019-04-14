@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/ajax")
 public class HelloWorldAjaxController {
 
-    @RequestMapping(value = "/hello")
+    @RequestMapping(value = "/show")
     public String sayAjaxHello(){
         return "{'message1':'Springboot1','message2':'Springboot2'}";
     }

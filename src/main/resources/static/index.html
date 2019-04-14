@@ -6,7 +6,7 @@
     <script src="libs/jquery.min.js"></script>
     <script type="text/javascript">
         function show() {
-            $.post("ajax/hello",{},function(result){
+            $.post("ajax/show",{},function(result){
                 alert(result);
             });
         }
@@ -14,5 +14,7 @@
 </head>
 <body>
 <button onclick="show()">show sth.</button>
+<a href="/blog/21">博客</a>
+<a href="/blog/query?q=123456">搜索</a>
 </body>
 </html>
