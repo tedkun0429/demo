@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_boot
+    username: dbboot
+    password: dbboot123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
