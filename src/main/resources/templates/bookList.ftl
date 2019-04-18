@@ -5,7 +5,12 @@
     <title>BookList</title>
 </head>
 <body>
-<a href="/book/bookAdd.html">新增</a>
+<a href="/book/bookAdd.html">新增</a> <br>
+<form action="/book/dynamicList" method="post">
+    名称：<input type="text" name="name" /> &nbsp;
+    作者：<input type="text" name="author" /> &nbsp;
+    <input type="submit" value="查询" />
+</form>
 <table>
     <tr>
         <th>编号</th>
